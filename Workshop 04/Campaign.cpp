@@ -1,4 +1,5 @@
 #include <iostream>
+
 int main()
 {
     int monsterHP = 100, myHP = 100;
