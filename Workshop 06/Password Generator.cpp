@@ -51,6 +51,5 @@ int main()
             cout << endl;
             break;
         }
-        
     }
 }
