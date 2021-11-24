@@ -32,7 +32,6 @@ int main()
         else
         {
             cout << "\nYour new password is ";
-
             for (int i = 0; i < length; ++i)
             {
                 if (selector(rng) % 2 == 0)
