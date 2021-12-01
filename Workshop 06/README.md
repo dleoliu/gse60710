@@ -3,7 +3,7 @@
 1. 乱数 n の値を表示しましょう。
 2. その乱数をもとに様々な処理をしましょう。
 
-```
+```C++
 #include <iostream>
 #include <random>
 int main()

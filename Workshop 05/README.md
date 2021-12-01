@@ -6,7 +6,7 @@ Cで学ぶプログラミングの基礎の56ページ「おまけプログラ�
 2. 繰り返し回数と間隔を指定できる
 3. その他、何か発展的な内容がある
 
-```
+```C++
 #include <iostream>
 #include <thread>
 #include <chrono>
