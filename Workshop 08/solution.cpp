@@ -6,19 +6,19 @@ using namespace std;
 
 int main()
 {
+    // 変数の準備
     mt19937 rng(random_device{}());
     uniform_int_distribution<int> mapGen(0, 4);
     uniform_int_distribution<int> mapSizeGen(1, 99);
 
     int mapSizeRow = mapSizeGen(rng);
     int mapSizeColumn = mapSizeGen(rng);
-
-    vector<char> icons = { 'W', 'M', 'R', 'B', 'G' };
-
     int numberOfM = 0;  // 見張りの人数
 
-    // 地図の情報
+    vector<char> icons = { 'W', 'M', 'R', 'B', 'G' };
     vector< vector<int> > tileList(mapSizeRow, vector<int>(mapSizeColumn));
+
+    // 地図を生成
     for (size_t i = 0; i < mapSizeRow; ++i)
     {
         for (size_t j = 0; j < mapSizeColumn; ++j)
@@ -27,6 +27,7 @@ int main()
         }
     }
 
+    // 地図を表示
     for (vector<int> tiles : tileList)
     {
         for (int tile : tiles)
