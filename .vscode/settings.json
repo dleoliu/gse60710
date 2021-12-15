@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "__threading_support": "cpp",
+        "vector": "cpp",
+        "__functional_03": "cpp",
+        "__functional_base": "cpp",
+        "__hash_table": "cpp",
+        "algorithm": "cpp",
+        "atomic": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "functional": "cpp",
+        "memory": "cpp",
+        "numeric": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "thread": "cpp",
+        "unordered_map": "cpp",
+        "utility": "cpp"
+    },
+    "C_Cpp.default.cppStandard": "c++20",
+    "code-runner.executorMap": {"cpp": "cd $dir && g++ -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"}
+}
