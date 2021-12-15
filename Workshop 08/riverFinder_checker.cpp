@@ -84,7 +84,7 @@ int main()
                         if (tileList[temp_i][temp_j - 1] == 2 && detectionSignal[temp_i][temp_j - 1] == 0)
                         {
                             detectionSignal[temp_i][temp_j - 1] += 1;
-                            storage.insert(storage.end(), { temp_i, temp_j - 1});
+                            storage.insert(storage.end(), { temp_i, temp_j - 1 });
                         }
                     }
                     if (temp_i + 1 < mapSizeRow)
@@ -121,7 +121,7 @@ int main()
     cout << "川は" << numberOfR << "本ある．" << endl;
     
     cout << endl;
-    for (vector signals : detectionSignal)
+    for (vector<int> signals : detectionSignal)
     {
         for (int signal : signals)
         {
