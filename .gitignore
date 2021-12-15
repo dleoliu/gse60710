@@ -33,9 +33,3 @@
 
 # macOS
 .DS_Store
-
-# VSCode
-.vscode
-
-# JetBrains
-.idea
