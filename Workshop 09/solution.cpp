@@ -113,12 +113,13 @@ int main()
     cout << endl;
 
     vector< vector<double> > randomMatrix = randomMatrixGen();
+    vector<int> result = argmax(randomMatrix);
     showVector(randomMatrix);
     cout << "Maximum item's index = { ";
-    for (int item : argmax(randomMatrix))
+    for (int item : result)
     {
         cout << item + 1;
-        if (item != argmax(randomMatrix).back())
+        if (item != result.back())
         {
             cout << ", ";
         }
