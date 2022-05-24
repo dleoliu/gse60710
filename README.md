@@ -14,7 +14,7 @@
 開講元学部／Faculty | 共通／COMMON
 開講元学科／Department | 全学共通／GENERAL STUDIES
 登録コード／Registration Code | GSE60710
-期間／Period	2021年度／Academic Year | 秋学期／AUTUMN
+期間／Period | 2021年度／Academic Year 　　秋学期／AUTUMN
 学期／Semester | 秋学期／AUTUMN
 曜限／Period | 水／Wed　4
 教室／Classroom | 水4 :COM-B／COM-B
